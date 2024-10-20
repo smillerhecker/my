@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Call Pitch</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Google Fonts -->
 </head>
 <body>
 
     <header>
         <h1>Sales Call Pitch: 10-Day Free Boot Camp Offer</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <p><strong>Sales Rep:</strong> Hey [Client's Name] Good afternoon, How are you doing?</p>
             <p>(Wait for their response, build rapport.)</p>
             <p>This is Talha Abid from Auxilium Sales Tech.</p>
@@ -21,18 +30,30 @@
             <p>(Wait for their response.)</p>
             <p>Do you have 30 seconds to hear a quick offer?</p>
             <p>(Wait for their response.)</p>
+        </section>
+
+        <section id="offer">
             <p>The reason I’m calling is to introduce you to an exciting 10-day boot camp which is totally free, specifically designed for small businesses that are looking to implement technology into their processes. At Auxilium, we specialize in helping businesses supercharge their sales through technology.</p>
             <p>This boot camp can help make your work easier and save you time, so you can focus on growing your business.</p>
+        </section>
+
+        <section id="benefits">
             <h2>During this boot camp, you’ll have access to:</h2>
             <ul>
-                <li>1:1 technical consultations</li>
-                <li>Help resolving your CRM and automation challenges</li>
-                <li>Guidance on customizing tech tools to your business needs</li>
-                <li>Support with API integrations, reports, and digital workflows</li>
+                <li><i class="fas fa-user-tie"></i> 1:1 technical consultations</li>
+                <li><i class="fas fa-tools"></i> Help resolving your CRM and automation challenges</li>
+                <li><i class="fas fa-cogs"></i> Guidance on customizing tech tools to your business needs</li>
+                <li><i class="fas fa-plug"></i> Support with API integrations, reports, and digital workflows</li>
             </ul>
+        </section>
+
+        <section id="impact">
             <p>This isn’t a sales pitch pretending to be a boot camp – it’s a practical chance to fix your tech issues. Test our expertise, and see how we help businesses like yours thrive.</p>
             <p>Just to give you an idea of our impact, one of our recent clients experienced a 30% increase in sales efficiency after participating in our last boot camp.</p>
             <p>I should mention that we only have a few seats left for this boot camp, and I highly recommend scheduling a call with one of our technical representatives at your earliest convenience to secure your spot.</p>
+        </section>
+
+        <section id="contact">
             <p><strong>Sales Rep:</strong> Would you be interested in setting up that call today to discuss how we can help your small business thrive with technology?</p>
         </section>
     </main>
